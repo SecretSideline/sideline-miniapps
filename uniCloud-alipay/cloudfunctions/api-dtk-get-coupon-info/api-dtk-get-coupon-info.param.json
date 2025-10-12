@@ -1,0 +1,5 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/rundebug.html#runparam
+{
+	"content": "【淘宝】假一赔四 https://e.tb.cn/h.hFDbKIOJ3v0sGoD?tk=u2Kn4llsAo7 MF287 「【七夕礼物】birdtalk玩味无火香薰室内礼物香氛满杯葡柚开学礼」点击链接直接打开 或者 淘宝搜索直接打开"
+}

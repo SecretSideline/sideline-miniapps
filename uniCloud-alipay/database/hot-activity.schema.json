@@ -1,0 +1,40 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+// 热门活动
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"source_type": {
+			"description": "活动来源类型，与api-config 中的type 保持一致。",
+			"bsonType": "int"
+		},
+		"activity_id": {
+			"description": "活动ID",
+			"bsonType": "string"
+		},
+		"activity_name": {
+			"description": "活动名称",
+			"bsonType": "string"
+		},
+		"start_time": {
+			"description": "活动开始时间",
+			"bsonType": "timestamp"
+		},
+		"end_time": {
+			"description": "活动结束时间",
+			"bsonType": "timestamp"
+		},
+		"goods_type": {
+			"description": ""
+		}
+	}
+}

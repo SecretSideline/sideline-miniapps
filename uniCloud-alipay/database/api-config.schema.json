@@ -1,0 +1,41 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+// api配置项。
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"type": {
+			"description": "api类型",
+			"bsonType": "int"
+		},
+		"name": {
+			"description": "api名称",
+			"bsonType": "string"
+		},
+		"app_key":{
+			"description": "appkey",
+			"bsonType": "string"
+		},
+		"app_secret": {
+			"description": "app_secret",
+			"bsonType": "string"
+		},
+		"base_url": {
+			"description": "api地址",
+			"bsonType": "string"
+		},
+		"ext_info": {
+			"description": "扩展信息",
+			"bsonType": "object"
+		}
+	}
+}

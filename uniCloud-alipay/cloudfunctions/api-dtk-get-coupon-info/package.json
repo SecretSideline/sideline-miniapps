@@ -1,0 +1,9 @@
+{
+  "name": "get-coupon-info",
+  "dependencies": {
+    "api-dtk-sign": "file:../common/api-dtk-sign"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
