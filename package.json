@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "vue-inset-loader": "^1.2.6"
+  }
+}

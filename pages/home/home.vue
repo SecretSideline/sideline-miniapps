@@ -458,7 +458,7 @@
 			// #endif
 		},
 		onLoad() {
-			
+			// this.$refs.authModel.open();
 		},
 		onPageScroll(e) {
 			let scrollTop = e.scrollTop;
