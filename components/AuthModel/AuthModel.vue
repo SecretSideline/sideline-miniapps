@@ -64,7 +64,22 @@
 				store.dispatch('setNickName', e.detail.value);
 			},
 			async doLogin() {
-				console.log('doLogin');
+				if (!this.avatarUrl) {
+					uni.showToast({
+						icon: 'error',
+						title: "请先设置头像",
+						duration: 1500,
+					});
+					return;
+				}
+				if (!this.nickName) {
+					uni.showToast({
+						icon: 'error',
+						title: "请先填写昵称",
+						duration: 1500,
+					});
+					return;
+				}
 				const self = this;
 				uni.showLoading({
 					title: "登录中。。。"
@@ -125,9 +140,7 @@
 
 <style lang="scss" scoped>
 	.containar {
-		width: 100vw;
 		background: #fff;
-		padding: 0 30rpx;
 
 		.avatarUrl {
 			padding: 80rpx 0 40rpx;
